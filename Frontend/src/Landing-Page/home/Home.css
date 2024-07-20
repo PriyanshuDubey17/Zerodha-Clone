@@ -1,0 +1,79 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+   
+
+*{
+ font-family: "Inter", sans-serif;
+ color:#424242 ; 
+}
+/* h1{
+   color:#424242 ;   
+}
+h2{
+        
+   }
+   
+   h3{
+      color:#424242 ;   
+   }
+   p{
+     color:  #424242
+   } */
+   a{
+      text-decoration: none;
+      
+   }
+   .nav-link {
+      margin-right: 30px;
+    
+   }
+   .footerAnchorTag{
+      color: #424242;
+      font-weight: 500;
+      
+   }
+
+   a:hover{
+      cursor: pointer;
+      color: #424242;
+   }
+   
+   .footerAnchorTag{
+      
+      display: block;
+    
+      margin-top: 15px;
+    
+   }
+   .footerAnchorTag:hover{
+      cursor: pointer;
+      color: #387ED1;
+   }
+   
+
+   .d-flex > ul > li:hover {
+      cursor: pointer;
+      color: #387ED1;
+  }
+  
+  .search-div {
+   position: relative;
+   width: 75%; /* Adjust as needed */
+   border: none;
+}
+
+.search-input {
+   width: 100%;
+   padding: 12px 40px 12px 12px; /* Adjust padding to make space for the icon */
+   box-sizing: border-box;
+   border: none;
+}
+
+.search-icon {
+   position: absolute;
+   right: 10px; /* Adjust as needed */
+   top: 50%;
+   transform: translateY(-50%);
+   pointer-events: none;
+   border: none; /* This ensures the icon doesn't block input field interactions */
+}
