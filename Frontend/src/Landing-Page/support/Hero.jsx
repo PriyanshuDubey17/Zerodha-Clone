@@ -4,7 +4,7 @@ import "../home/Home.css"
 function Hero() {
     return ( 
     <>
-    <div className="container-flued "style={{backgroundColor:"#387ED1"}}>
+    <div className="container-flued "style={{backgroundColor:"#387ED1"}}>             {/*flued ko htane se jo support ke hero section me jo bag hai ohh fix ho jayega */}
      <div className="row">
         <div className="col-8">
      <div className="p-5"  style={{  marginLeft: "5%"}}><h5 style={{color:"white"}} > Support Portal</h5></div></div>
