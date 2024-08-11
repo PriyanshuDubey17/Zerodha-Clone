@@ -1,8 +1,8 @@
 import React from 'react';
 import Hero from './Hero';
 import Team from './Team';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import Boi from './boi';
+
 
 
 function AboutPage() {
@@ -11,7 +11,7 @@ function AboutPage() {
      
         <Hero/>
         <Team/>
-        
+        <Boi/>
         </>
     );
 }
