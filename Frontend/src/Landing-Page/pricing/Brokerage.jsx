@@ -5,7 +5,7 @@ function Brokerage() {
   return (
     <div className="container mt-5">
       <div className="row mt-5">
-        <div className="col-8">
+        <div className="col-12 col-md-8">
           <div className="p-5 fs-5" style={{ fontWeight: "400", width: "80%" }}>
             <a href="" className="">
               {" "}
@@ -41,7 +41,7 @@ function Brokerage() {
             </li>
           </ul>
         </div>
-        <div className="col-4 fs-5">
+        <div className="col-12 col-md-4 fs-5">
           <div className="text-center p-5" style={{ fontWeight: "400" }}>
             {" "}
             <a href="" className="">

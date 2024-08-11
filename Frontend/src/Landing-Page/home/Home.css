@@ -1,10 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-   
-
-*{
- font-family: "Inter", sans-serif;
- color:#424242 ; 
+* {
+  font-family: "Inter", sans-serif;
+  color: #424242;
 }
 /* h1{
    color:#424242 ;   
@@ -19,61 +17,191 @@ h2{
    p{
      color:  #424242
    } */
-   a{
-      text-decoration: none;
-      
-   }
-   .nav-link {
-      margin-right: 30px;
-    
-   }
-   .footerAnchorTag{
-      color: #424242;
-      font-weight: 500;
-      
-   }
+a {
+  text-decoration: none;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.footerAnchorTag {
+  color: #424242;
+  font-weight: 500;
+}
 
-   a:hover{
-      cursor: pointer;
-      color: #424242;
-   }
-   
-   .footerAnchorTag{
-      
-      display: block;
-    
-      margin-top: 15px;
-    
-   }
-   .footerAnchorTag:hover{
-      cursor: pointer;
-      color: #387ED1;
-   }
-   
+a:hover {
+  cursor: pointer;
+  color: #424242;
+}
 
-   .d-flex > ul > li:hover {
-      cursor: pointer;
-      color: #387ED1;
-  }
-  
-  .search-div {
-   position: relative;
-   width: 75%; /* Adjust as needed */
-   border: none;
+.footerAnchorTag {
+  display: block;
+
+  margin-top: 15px;
+}
+.footerAnchorTag:hover {
+  cursor: pointer;
+  color: #387ed1;
+}
+
+.d-flex > ul > li:hover {
+  cursor: pointer;
+  color: #387ed1;
+}
+
+.search-div {
+  position: relative;
+  width: 75%; /* Adjust as needed */
+  border: none;
 }
 
 .search-input {
-   width: 100%;
-   padding: 12px 40px 12px 12px; /* Adjust padding to make space for the icon */
-   box-sizing: border-box;
-   border: none;
+  width: 100%;
+  padding: 12px 40px 12px 12px; /* Adjust padding to make space for the icon */
+  box-sizing: border-box;
+  border: none;
 }
 
 .search-icon {
-   position: absolute;
-   right: 10px; /* Adjust as needed */
-   top: 50%;
-   transform: translateY(-50%);
-   pointer-events: none;
-   border: none; /* This ensures the icon doesn't block input field interactions */
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  border: none; /* This ensures the icon doesn't block input field interactions */
+}
+
+@media (max-width: 750px) {
+  .hero-img-div {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 0% !important;
+    /* background-color: #387ED1; */
+  }
+  .hero-img {
+    padding: 0% !important;
+    height: 15rem;
+  }
+  .container {
+    padding: 3% !important;
+    margin: 0% !important;
+  }
+  .btn-primary {
+    width: 50% !important;
+    margin-bottom: 0rem !important;
+  }
+  .invest {
+    margin-top: 3% !important;
+  }
+  .navbar-toggler {
+    position: relative;
+    left: 21rem;
+    bottom: 2rem;
+  }
+  .award-c {
+    margin-top: 1rem !important;
+  }
+  .img-fluid {
+    margin-bottom: 1rem !important;
+  }
+  .largest {
+    margin-top: 1rem !important;
+    font-size: 1.5rem;
+  }
+  .pressLogo {
+    margin-bottom: 0rem !important;
+  }
+  .trading {
+    width: 25rem !important;
+    padding: 1rem !important;
+  }
+  .free {
+    padding: 1rem !important;
+    font-size: 1.3rem !important;
+  }
+  .free-link {
+    padding: 1rem !important;
+  }
+  .edu-img {
+    margin-top: 0rem !important;
+  }
+  .sing-img {
+    padding: 0rem !important;
+    height: 15rem;
+    width: 100%;
+    margin-top: 3rem !important;
+  }
+  .margin {
+    margin: 0rem !important;
+  }
+  .authorize {
+    width: 100% !important;
+  }
+  .pad-l {
+    margin-left: 6rem !important;
+  }
+  .boi-p {
+    padding: 1rem;
+  }
+  .in-add {
+    padding: 0rem !important;
+  }
+  .in-add-1 {
+    padding: 1.5rem !important;
+  }
+  .kite {
+    margin-left: 0rem !important;
+    padding: 0rem !important;
+    width: 100%;
+  }
+  .kite-r {
+    margin-left: 1rem !important;
+    padding: 1rem !important;
+    width: 100%;
+  }
+  .left-img {
+    padding: 0rem !important;
+    width: 95%;
+  }
+  .remove-p {
+    padding: 0rem !important;
+  }
+  .search {
+    display: none !important;
+  }
+  .search-div {
+    width: 100%;
+    margin: 0rem !important;
+    margin-top: 1rem !important;
+  }
+  .search-sp {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .search-spa {
+    padding: 0rem !important;
+    margin: 0rem !important;
+  }
+  .kite-user {
+    position: relative;
+    bottom: 2rem;
+  }
+  .feature {
+    margin: 0rem !important;
+    padding: 1rem !important;
+  }
+  .margin {
+    margin-left: 0rem !important;
+  }
+  .create {
+    font-size: 1.2rem !important;
+    margin-top: 2rem !important;
+    text-align: center;
+    font-weight: bold;
+  }
+  .jo-laat {
+    display: flex;
+    flex-direction: column !important;
+  }
 }

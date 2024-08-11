@@ -6,9 +6,13 @@ function Hero() {
   return (
     <>
       <div className="container p-5 mb-5">
-        <div className="row  text-center">
-          <img src={heroImage} alt="Hero Image" className="mt-5 pt-5" />
-          <h1 className="mt-5 pt-5">Invest in everything</h1>
+        <div className="row  text-center hero-img-div">
+          <img
+            src={heroImage}
+            alt="Hero Image"
+            className="mt-5 pt-5 hero-img"
+          />
+          <h1 className="mt-5 pt-5 invest">Invest in everything</h1>
           <p className="p-2">
             Online platform to invest in stocks, derivatives, mutual funds, and
             more

@@ -1,15 +1,12 @@
-import React from 'react';
-import HomePage from './Landing-Page/home/HomePage';
-
+import React from "react";
+import HomePage from "./Landing-Page/home/HomePage";
 
 function App() {
-
-
   return (
     <>
-     <HomePage/>
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
